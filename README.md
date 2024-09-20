@@ -101,4 +101,6 @@ A data de entrega e apresentação será no dia **27/09/2024**.
 Os integrantes de cada grupo devem apresentar o resultado final em forma de apresentação oral, explicando os conceitos utilizados na resolução de cada exercício.
 
 ## Observações
-Resoluções descabidas, desatentas, preguiçosas, desleixadas,
+Esses requisitos de tags e propriedades obrigatórias ajudarão a praticar o uso de
+tags HTML específicas e propriedades CSS relevantes em cada exercício,
+aprimorando assim as habilidades em HTML e CSS para o desenvolvimento web.
