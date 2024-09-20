@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.sitemap-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sitemap {
+    list-style-type: none; /* Remove as marcas da lista */
+}
+
+.sitemap li {
+    margin-bottom: 10px;
+}
+
+.sitemap a {
+    text-decoration: none;
+    color: #0077b5;
+}
+
+.sitemap a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.sitemap ul {
+    margin-top: 5px; /* Espaço entre a lista principal e a sublista */
+    padding-left: 20px; /* Recuo na sublista */
+}
+
+.sitemap ul li {
+    text-indent: 20px; /* Recuo do texto na sublista */
+}
