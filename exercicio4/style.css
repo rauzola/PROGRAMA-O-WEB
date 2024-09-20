@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.blog-list {
+    list-style: square inside; /* Define a lista com um estilo de quadrado preenchido */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.blog-list li {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-list h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.blog-list .date {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.blog-list p {
+    font-size: 16px;
+    color: #444;
+}
+
+.blog-list a {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-list a:hover {
+    text-decoration: underline;
+}
