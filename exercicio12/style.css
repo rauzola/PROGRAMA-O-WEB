@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.gallery-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.gallery {
+    display: grid; /* Organiza as miniaturas em uma grade */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta o número de colunas */
+    gap: 15px; /* Espaçamento entre as imagens */
+}
+
+figure {
+    margin: 0; /* Remove margens do figure */
+}
+
+figure img {
+    width: 100%; /* Imagem ocupa 100% da largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas nas imagens */
+    cursor: pointer; /* Muda o cursor ao passar o mouse sobre a imagem */
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
