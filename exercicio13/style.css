@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.promotions-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.promotion-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.promotion-item img {
+    width: 150px; /* Defina uma largura fixa para as imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px;
+}
+
+.price {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.price del {
+    color: red; /* Cor do preço original riscado */
+}
